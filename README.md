@@ -1,7 +1,28 @@
 # Rasterloom
 
-我們參考《Tricks of the 3D Game Programming Gurus》，一起從零打造 3D 遊戲引擎。Rasterloom 結合了 raster（光柵）與 loom（織布機），取的是用像素織出畫面的意象。
+**Building a 3D Game Engine from Scratch**
 
-## 第一個里程碑
+Rasterloom is a game engine development project inspired by André LaMothe's *Tricks of the 3D Game Programming Gurus: Advanced 3D Graphics and Rasterization*.
 
-給定三個螢幕座標和一個顏色，用自己的光柵化程式畫出實心三角形。完成時，移動任一頂點，畫面上的三角形也會跟著改變。
+The name **Rasterloom** combines *raster* (rasterization) and *loom* (a weaving machine), symbolizing the process of weaving individual pixels into visual worlds.
+
+The goal of this project is to explore the fundamentals of computer graphics, software rendering, and game engine architecture by building a 3D game engine from the ground up.
+
+## First Milestone: Triangle Rasterization
+
+Implement a custom software rasterizer capable of rendering a solid triangle given three screen-space vertex coordinates and a color.
+
+### Success Criteria
+
+- [ ] Accept three screen-space vertex coordinates and a color.
+- [ ] Implement a custom triangle rasterization algorithm.
+- [ ] Fill the interior pixels of the triangle.
+- [ ] Dynamically update the triangle when any vertex position changes.
+
+## Reference
+
+- André LaMothe — *Tricks of the 3D Game Programming Gurus: Advanced 3D Graphics and Rasterization*
+
+## Project Status
+
+🚧 Under active development.
